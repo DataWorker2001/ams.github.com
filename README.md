@@ -16,34 +16,63 @@ The Albums List Manager App is a web application that allows users to manage a l
 
 The project folder structure is organized as follows:
 ├── public/
+<br />
 │ ├── favicon.ico
+<br />
 │ ├── index.html
+<br />
 │ ├── logo192.png
+<br />
 │ ├── logo512.png
+<br />
 │ ├── manifest.json
+<br />
 │ ├── robots.txt
+<br />
 ├── src/
+<br />
 │ ├── components/
+<br />
 │ │ ├── AMS.jsx
+<br />
 │ │ ├── bg1.jpg
+<br />
 │ │ ├── bg2.jpeg
+<br />
 │ │ ├── bg3.jpeg
+<br />
 │ │ ├── Contact.jsx
+<br />
 │ │ ├── HomePage.jsx
+<br />
 │ │ ├── hp.css
+<br />
 │ │ ├── Review.jsx
+<br />
 │ │ ├── UserGuide.jsx
+<br />
 │ ├── 1.png
+<br />
 │ ├── App.js
+<br />
 │ ├── bg.jfif
+<br />
 │ ├── index.js
+<br />
 │ ├── styles.css
+<br />
 ├── .firebaserc
+<br />
 ├── .gitignore
+<br />
 ├── firebase.json
+<br />
 ├── packagelock.json
+<br />
 ├── package.json
+<br />
 ├── README.md
+<br />
 └── ...
 
 ### More Info 
