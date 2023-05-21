@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(88deg, rgb(229, 229, 250), pink);
+    color: green;
+}
+.nb{
+    /* background-color: grey; */
+    /* border: violet dotted 5px; */
+    border-radius: 1%;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    padding: 0.1rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.1rem;
+    left: 0;
+    width: 100%;
+}
+.btn{
+    background-color: aquamarine;
+    color: Red;
+    padding: 0.8rem 1.2rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the width as needed 
+    height: 40px; /* Adjust the height as needed 
+    margin-right: 10px; /* Adjust the margin as needed 
+  } */
+
+  .lg{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+  }
+  
