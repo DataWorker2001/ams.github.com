@@ -15,6 +15,7 @@ The Albums List Manager App is a web application that allows users to manage a l
 ## Folder Structure
 
 The project folder structure is organized as follows:
+<br />
 ├── public/
 <br />
 │ ├── favicon.ico
