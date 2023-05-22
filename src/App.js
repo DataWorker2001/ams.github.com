@@ -27,20 +27,20 @@ const NavBar = () => {
     <nav className = 'nb' style={{display: 'flex', justifyContent: 'flex-start', left: '0'}}>   
       <img src= {logo} alt="Img Not Exists" className='lg'/>
       <div style={{ padding: '8px' }}>
-        <button className = 'btn' style={{marginRight: '10px', borderRadius: '1%', color: 'brown'}}>
-          <Link to="/" style = {{color: 'brown'}}>Home</Link>
+        <button className = 'btn' style={{margin: '10px', borderRadius: '1%', border: 'brown solid 1px', color: 'brown', textDecoration: 'none'}}>
+          <Link to="/" style = {{color: 'brown', textDecoration: 'none'}}>Home</Link>
         </button>
-        <button className = 'btn' style={{ marginRight: '10px', borderRadius: '1%', color: 'brown'}}>
-          <Link to="/main" style = {{color: 'brown'}}>Manage Albums List</Link>
+        <button className = 'btn' style={{ margin: '10px', borderRadius: '1%', border: 'brown solid 1px', color: 'brown', textDecoration: 'none'}}>
+          <Link to="/main" style = {{color: 'brown', textDecoration: 'none'}}>Manage Albums List</Link>
         </button>
-        <button className = 'btn' style={{ marginRight: '10px', borderRadius: '1%', color: 'brown' }}>
-          <Link to="/ugi" style = {{color: 'brown'}}>User Guide and Instructions</Link>
+        <button className = 'btn' style={{ margin: '10px', borderRadius: '1%', border: 'brown solid 1px', color: 'brown', textDecoration: 'none' }}>
+          <Link to="/ugi" style = {{color: 'brown', textDecoration: 'none'}}>User Guide, About App and Instructions</Link>
         </button>
-        <button className = 'btn' style={{ marginRight: '10px', borderRadius: '1%', color: 'brown' }}>
-          <Link to="/cnt" style = {{color: 'brown'}}>Contact</Link>
+        <button className = 'btn' style={{ margin: '10px', borderRadius: '1%', border: 'brown solid 1px', color: 'brown', textDecoration: 'none' }}>
+          <Link to="/cnt" style = {{color: 'brown', textDecoration: 'none'}}>Contact</Link>
         </button>
-        <button className = 'btn' style={{ marginRight: '10px', borderRadius: '1%', color: 'brown' }}>
-          <Link to="/rev" style = {{color: 'brown'}}>Review and Feedback</Link>
+        <button className = 'btn' style={{ margin: '10px', borderRadius: '1%', border: 'brown solid 1px', color: 'brown', textDecoration: 'none' }}>
+          <Link to="/rev" style = {{color: 'brown', textDecoration: 'none'}}>Review and Feedback</Link>
         </button>
       </div>
     </nav>

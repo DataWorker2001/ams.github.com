@@ -16,7 +16,7 @@ function AMS() {
 
   const handleAddAlbum = () => {
     if (newAlbum.title.trim() === '') {
-      alert('Album title cannot be empty');
+      alert('Album title cannot be empty or whitespace.');
       return;
     }
   
@@ -38,7 +38,7 @@ function AMS() {
     })
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Failed to create album');
+          throw new Error('Failed to create album.');
         }
         return response.json();
       })
@@ -57,19 +57,18 @@ function AMS() {
   
         // Call handleUpdateAlbum with the newly created album object
   
-        alert('Album added successfully');
+        alert('Album added successfully!');
       })
       .catch((error) => {
         console.error('Error creating album:', error);
-        alert('Failed to create album');
+        alert('Failed to create album.');
       });
   };
-  
+   
   
   const handleUpdateAlbum = (albumId, newTitle) => {
-    if(newTitle==='')
-    {
-      alert("Title cannot be empty");
+    if (newTitle.trim() === '') {
+      alert('Entered Album title cannot be empty or whitespace for update.');
       return;
     }
     const updatedAlbums = albums.map(album => {
@@ -132,9 +131,10 @@ function AMS() {
           value={newAlbum.title}
           onChange={(e) => setNewAlbum({ title: e.target.value })}
         />
-        <button onClick={handleAddAlbum}>+ Add Album</button>
+        <button style = {{padding: '7px', color: 'red', backgroundColor: 'yellow', fontWeight: 'bold', textAlign: 'center'}} onClick={handleAddAlbum}>+ Add Album</button>
       </div>
-      <h2>Albums</h2>
+      <h2 style = {{textAlign: 'center'}}><u>List of Albums</u></h2>
+      <strong><hr /><hr /></strong>
       <div className="grid-container">
         {albums.map((album) => (
           <div className="album-block" key={album.id}>
@@ -195,6 +195,9 @@ function AMS() {
       <h2 style={{ textAlign: 'center' }}>
         ----------x---------- END OF MANAGE ALBUMS LIST PAGE ----------x----------
       </h2>
+      <br />
+      <br />
+      <hr />
     </div>
   );
 }

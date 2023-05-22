@@ -7,10 +7,10 @@ const HomePage = () => {
     //   backgroundSize: 'cover',
     // };
     return (
-    <div className = "hpage">
+    <div className = "hp1">
       <h2 style={{color: 'purple', textAlign: 'center'}}>Welcome to the Home Page of the Album List Management Systems!</h2>
       <br />
-      <p style = {{fontWeight: 'bold'}}> This App can be used to manage list of existing 100 albums from <a href='https://jsonplaceholder.typicode.com/albums' target= 'blank'>this Link</a> and even add new albums and update, delete the list of albums using dummy calls. Once the page is refreshed all changes are lost and until that all are preserved bcz the changes are not made in the server as per requirement. </p>
+      <div style = {{fontWeight: 'bold'}}> This App can be used to manage list of existing 100 albums from <a href='https://jsonplaceholder.typicode.com/albums' target= 'blank'>this Link</a> and even add new albums and update, delete the list of albums using dummy calls. Once the page is refreshed all changes are lost and until that all are preserved bcz the changes are not made in the server as per requirement. </div>
       <br />
       <ol>
         <li><b>Hello everyone, all of you can try out our Albums List Manager Basic Application by navigating to the Manage Albums List option from the NavBar.</b></li>

@@ -1,4 +1,4 @@
-.hpage {
+.hp1 {
     background: url(./bg2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,11 +8,11 @@
     left:0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    /* z-index: -1; */
     /* background: linear-gradient(100deg, rgb(204, 204, 228), pink);
     width: 100%;
     left: 0; */
-  }
+}
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
