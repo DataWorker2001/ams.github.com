@@ -77,7 +77,7 @@ function AMS() {
       }
       return album;
     });
-    setAlbums(updatedAlbums);
+    // setAlbums(updatedAlbums);
     
     fetch(`https://jsonplaceholder.typicode.com/albums/${albumId}`, {
       method: 'PUT',
@@ -92,12 +92,12 @@ function AMS() {
         console.log('Album updated successfully.');
         alert("Album updated successfully!");
       })
-      // .catch(error => {
-      //   // Handle error and revert the changes in the state
-      //   console.log("Error in updating album",error);
-      //   // alert("Error updating Album!");
-      //   setAlbums(albums);
-      // });
+      .catch(error => {
+        // Handle error and revert the changes in the state
+        console.log("Error in updating album",error);
+        alert("Error updating Album!");
+        // setAlbums(albums);
+      });
       
       setEditingAlbumId(null);
       setUpdatedAlbumTitle('');
@@ -114,11 +114,11 @@ function AMS() {
       const updatedAlbums = albums.filter((album) => album.id !== albumId);
       setAlbums(updatedAlbums);
       alert('Album deleted successfully.');
+    })
+    .catch(error => {
+      console.log("Error in deleting Albums", error);
+      alert("Unable to delete album!");
     });
-    // .catch(error => {
-    //   console.log("Error in deleting Albums", error);
-    //   alert("Unable to delete album!");
-    // });
   };
 
   return (
