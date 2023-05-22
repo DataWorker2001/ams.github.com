@@ -17,9 +17,9 @@ The Albums List Manager App is a web application that allows users to manage a l
 The project folder structure is organized as follows:
 <br />
 ├── public/
-│ ├── logo192.png
+│ ├── android-chrome-192x192.png
 <br />
-│ ├── .png
+│ ├── android-chrome-512x512.png
 <br />
 │ ├── apple-touch-icon.png
 <br />
