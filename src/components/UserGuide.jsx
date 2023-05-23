@@ -20,7 +20,7 @@ const UGI = () => {
         </ol>
       </p>
       <p>
-        If you all, need those instructions and information about the Albums list records manager App you can view and download it from here by clicking on this link: <a href="https://drive.google.com/file/d/1-igfP2vBUJ_dKbJbDIVSPTDy46ngeg6x/view?usp=sharing" target = "blank">View and Download Documentation</a>
+        If you all, need those instructions and information about the Albums list records manager App you can view and download it from here by clicking on this link: <a href="https://drive.google.com/file/d/16SuOTVvktHYSW8fLNbW604sPJtO6ERwT/view?usp=sharing" target = "blank">View and Download Documentation</a>
       </p>
       <br />
       <h2 style = {{textAlign: 'center'}}>----------x---------- END OF USER GUIDE AND INSTRUCTIONS PAGE ----------x----------</h2>
